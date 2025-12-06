@@ -8,11 +8,11 @@ This project is mainly a practice project and is not meant to be a highly polish
 
 ## Technologies and Design
 
-- Uses an API key from the OpenWeather service: <https://openweather.org>[1]
+- Uses an API key from the OpenWeather service: <https://openweather.org>
 - The project is written in a modular way so that components are separated and reusable  
 - Code is optimized, clean, and readable so that others can understand and extend it  
-- Available both as a terminal (CLI) program and as a graphical interface so you can see the logic in different contexts[3]
-- Python type hints are used throughout the code to improve clarity and maintainability[2]
+- Available both as a terminal program and as a graphical interface so you can see the logic in different contexts
+- Python type hints are used throughout the code to improve clarity and maintainability
 
 ## Project Structure
 
@@ -32,7 +32,7 @@ Weather/
 
 ## How to Use
 
-- You can download or clone the project from GitHub: <https://github.com/hu-matin/Weather>[4]
+- You can download or clone the project from GitHub: <https://github.com/hu-matin/Weather>
 - For users who only want to run the app:
   - Just execute the Windows `.exe` file directly; it does not require any additional dependencies.
 - For users who want to work with the source code:
