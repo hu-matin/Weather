@@ -212,25 +212,6 @@ class WeatherCardApp(ctk.CTk):
         )
         self.location_label.configure(text=f"{city}, {country}")
 
-
-    # def update_card(self, weather: dict):
-    #     city = weather.get("city", "")
-    #     country = weather.get("country", "")
-    #     temp = weather.get("temp", 0.0)
-    #     feels_like = weather.get("feels_like", 0.0)
-    #     icon = weather.get("icon", None)
-    #     description = weather.get("main", "")
-
-    #     icon_img = self._get_icon_image(icon)
-    #     if icon_img:
-    #         self.image_label.configure(image=icon_img)
-    #         self.image_label.image = icon_img
-
-    #     self.temperature_label.configure(text=f"{temp:.1f}°")
-    #     self.feels_like_label.configure(text=f"Feels like: {feels_like:.1f}°")
-    #     self.desc_label.configure(text=description)
-    #     self.location_label.configure(text=f"{city}, {country}")
-
     def fetch_weather_thread_initial(self):
         data = self.weather_obj.get()
         self.after(0, self.on_weather_result, data)
@@ -270,3 +251,4 @@ class WeatherCardApp(ctk.CTk):
         self.status_label.configure(text="")
         self.weather_data = data
         self.update_card(data)
+
