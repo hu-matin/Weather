@@ -1,1 +1,1 @@
-YOUR_API_KEY frm https://openweathermap.org
+YOUR_API_KEY form https://openweathermap.org
